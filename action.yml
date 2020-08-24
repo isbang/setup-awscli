@@ -1,0 +1,10 @@
+name: 'Setup AWS cli'
+description: 'setup aws-cli'
+runs:
+  using: "composite"
+  steps:
+    - name: Install aws cli
+      run: python -m pip install --upgrade pip awscli
+      shell: bash
+    - run: aws --version
+      shell: bash
