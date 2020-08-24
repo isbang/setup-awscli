@@ -13,3 +13,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Test action
         uses: ./
+      - name: Print aws version
+        run: aws --version
