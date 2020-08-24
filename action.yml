@@ -1,5 +1,8 @@
 name: 'Setup AWS cli'
 description: 'setup aws-cli'
+branding:
+  icon: 'cloud'
+  color: 'orange'
 runs:
   using: "composite"
   steps:
